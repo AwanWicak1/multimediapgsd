@@ -1,0 +1,355 @@
+#logonavbar {
+  height: 50px;
+}
+
+#navbarmain {
+  background-color: #1f1f1f;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: white;
+}
+
+#myfooter {
+  background-color: #1f1f1f;
+  height: 140px;
+}
+
+#myfooter p {
+  color: white;
+}
+
+.mydivider {
+  width: 100%;
+  height: 8px;
+  background-color: #2a2a2a;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+#myjumbotron {
+  background-image: url("/static/jumbotronimage4.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.menujupgsd:hover {
+  color: orange;
+}
+
+.htmlbody {
+  background-color: #333333;
+}
+
+.card-body {
+  background-color: #3d3d3d;
+}
+
+#cardtitle {
+  color: white;
+}
+
+.card-text {
+  color: white;
+  text-align: justify;
+}
+
+#footertext {
+  color: white;
+}
+
+.herowebku {
+  padding-top: 47px;
+}
+
+.judulmateri {
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+#judulhome {
+  color: white;
+}
+
+#judulcp {
+  margin-top: 100px;
+  color: white;
+}
+
+#judultp {
+  margin-top: 25px;
+  color: white;
+}
+
+.mybox {
+  width: 65%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: justify;
+  align-items: center;
+}
+
+.myboxtp {
+  width: 65%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: justify;
+  align-items: center;
+}
+
+.isicp {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.isitp {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.elemencp {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.isitp ol li {
+  line-height: 1.7;
+}
+
+.containercp {
+  margin-top: 25px;
+}
+
+.containertp {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.examplebox {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: justify;
+  align-items: center;
+}
+
+#columnmateri {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.petakonsep {
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+#cardtitle {
+  color: white;
+  text-align: center;
+}
+
+#cardisi {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.listboxmateri {
+  color: white;
+  font-size: 18px;
+}
+
+#imgmateri1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.sumbergambar {
+  text-align: center;
+}
+
+.teksdeskripsi {
+  text-align: justify;
+}
+
+.dapus li {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.listmateri2 {
+  color: white;
+}
+
+.custom-video {
+  width: 600px;
+  height: 400px;
+}
+
+/* 576px */
+@media (min-width: 0px) and (max-width: 576px) {
+  .isicp {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+
+  .elemencp {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .isitp {
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 11px;
+  }
+
+  .myboxtp {
+    width: 65%;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;
+    align-items: center;
+  }
+  .isitp ol li {
+    line-height: 2.1;
+  }
+
+  .custom-video {
+    width: 370px;
+    height: 280px;
+  }
+}
+
+/* 768px */
+@media (min-width: 577px) and (max-width: 768px) {
+  .isicp {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+
+  .elemencp {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .isitp {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .myboxtp {
+    width: 65%;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;
+    align-items: center;
+  }
+  .isitp ol li {
+    line-height: 1.8;
+  }
+
+  .custom-video {
+    width: 370px;
+    height: 280px;
+  }
+}
+
+/* 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .isicp {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+
+  .elemencp {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .isitp {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 14px;
+  }
+}
+
+/* 1200px */
+@media (min-width: 993px) and (max-width: 1300px) {
+  .isicp {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+
+  .elemencp {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .isitp {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
+    <title>3 Wujud Benda | Webipaku</title>
+</head>
+
+<body class="htmlbody">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbarmain">
+        <div class="container-fluid">
+            <a class="navbar-brand mr-auto" href="/"><img src="/static/logowebipaku.png" alt="Logo" id="logonavbar"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item ms-2 me-2">
+                        <a class="nav-link" aria-current="page" href="/" id="navbarisi">Home</a>
+                    </li>
+                    <li class="nav-item ms-2 me-2">
+                        <a class="nav-link" href="/capaian" id="navbarisi">Capaian Pembelajaran</a>
+                    </li>
+                    <li class="nav-item ms-2 me-2">
+                        <a class="nav-link active" href="/kumpulanmateri" id="navbarisi">Materi</a>
+                    </li>
+                    <li class="nav-item ms-2 me-2">
+                        <a class="nav-link" href="/videopembelajaran" id="navbarisi">Video Pembelajaran</a>
+                    </li>
+                    <li class="nav-item ms-2 me-2">
+                        <a class="nav-link" href="/quiz" id="navbarisi">Quiz</a>
+                    </li>
+                    <li class="nav-item ms-2 me-5">
+                        <a class="nav-link" href="/about" id="navbarisi">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /navbar -->
+
+
+    <main>
+
+
+        <!-- judul -->
+        <div class="d-flex justify-content-center" id="judulcp">
+            <h1>{{ judul }}</h1>
+        </div>
+        <!-- /judul -->
+
+        <!-- Box -->
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 mt-5 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" id="cardtitle">{{ subjudul1 }}</h5>
+                            <p class="card-text" id="cardisi">Menurut KBBI, Benda adalah segala yang ada dalam alam yang
+                                berwujud atau berjasad (bukan roh); zat (misalnya air, minyak, buku);. Maka dapat kita
+                                ambil
+                                kesimpulan bahwa sesuatu hal dapat dinyatakan sebagai benda ketika memiliki wujud. Wujud
+                                menurut KBBI adalah rupa dan bentuk yang dapat diraba, dilihat, dirasakan oleh indera
+                                manusia. Jadi jika kamu menemukan sesuatu yang bisa kamu lihat/raba/dirasakan maka itu
+                                adalah benda. Berikut adalah contoh benda:</p>
+                            <div class="listboxmateri">
+                                <ol>
+                                    <li>
+                                        Meja
+                                    </li>
+                                    <div class="d-flex justify-content-center" id="imgmateri1">
+                                        <img src="/static/meja.jpg" alt="Error! gambar tidak ditemukan!"
+                                            class="img-fluid">
+
+                                    </div>
+                                    <p class="sumbergambar">Sumber :
+                                        Unsplash.com
+                                    </p>
+
+                                    <li>
+                                        Kursi
+                                    </li>
+                                    <div class="d-flex justify-content-center" id="imgmateri1">
+                                        <img src="/static/kursi.jpg" alt="Error! gambar tidak ditemukan!"
+                                            class="img-fluid">
+                                    </div>
+                                    <p class="sumbergambar">Sumber :
+                                        Unsplash.com
+                                    </p>
+                                    <li>
+                                        Buku
+                                    </li>
+                                    <div class="d-flex justify-content-center" id="imgmateri1">
+                                        <img src="/static/buku.jpg" alt="Error! gambar tidak ditemukan!"
+                                            class="img-fluid">
+                                    </div>
+                                    <p class="sumbergambar">Sumber :
+                                        Unsplash.com
+                                    </p>
+                                    <li>
+                                        Air
+                                    </li>
+                                    <div class="d-flex justify-content-center" id="imgmateri1">
+                                        <img src="/static/water.jpg" alt="Error! gambar tidak ditemukan!"
+                                            class="img-fluid">
+                                    </div>
+                                    <p class="sumbergambar">Sumber :
+                                        Unsplash.com
+                                    </p>
+                                    <li>
+                                        Baju
+                                    </li>
+                                    <div class="d-flex justify-content-center" id="imgmateri1">
+                                        <img src="/static/baju.jpg" alt="Error! gambar tidak ditemukan!"
+                                            class="img-fluid">
+                                    </div>
+                                    <p class="sumbergambar">Sumber :
+                                        Unsplash.com
+                                    </p>
+                                </ol>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 mt-5 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" id="cardtitle">{{ subjudul2 }}</h5>
+                            <p class="card-text" id="cardisi">Benda padat adalah benda yang volume dan bentuknya tetap,
+                                tidak mudah
+                                berubah. Benda ini yang paling sering kita temui di kehidupan sehari - hari. Benda padat
+                                memiliki sifat sebagai berikut:</p>
+                            <div class="listboxmateri">
+                                <ol>
+                                    <li>
+                                        Partikel Rapat
+                                    </li>
+                                    <div class="d-flex justify-content-center" id="imgmateri1">
+                                        <img src="/static/partikelpadat.png" alt="Error! gambar tidak ditemukan!"
+                                            class="img-fluid">
+                                    </div>
+                                    <p class="sumbergambar">Sumber :
+                                        Google.com
+                                    </p>
+                                    <p class="teksdeskripsi">Pada benda padat, partikel tersusun sangat rapat. Hal ini
+                                        mengakibatkan benda akan tersusun dengan tetap dan tidak mudah berubah bentuk.
+                                    </p>
+                                    <li>
+                                        Bentuk dan volume tetap
+                                    </li>
+                                    <li>
+                                        Tidak mudah berubah wujud
+                                    </li>
+                                </ol>
+                                <p class="card-text" id="cardisi">Contoh benda padat:</p>
+                                <div class="listboxmateri">
+                                    <ul>
+                                        <li>
+                                            Lemari
+                                        </li>
+                                        <div class="d-flex justify-content-center" id="imgmateri1">
+                                            <img src="/static/lemari.jpg" alt="Error! gambar tidak ditemukan!"
+                                                class="img-fluid">
+                                        </div>
+                                        <p class="sumbergambar">Sumber :
+                                            Unsplash.com
+                                        </p>
+                                        <li>
+                                            Kardus
+                                        </li>
+                                        <div class="d-flex justify-content-center" id="imgmateri1">
+                                            <img src="/static/kardus.jpg" alt="Error! gambar tidak ditemukan!"
+                                                class="img-fluid">
+                                        </div>
+                                        <p class="sumbergambar">Sumber :
+                                            Unsplash.com
+                                        </p>
+
+                                    </ul>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 mt-5 mb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title" id="cardtitle">{{ subjudul3 }}</h5>
+                                <p class="card-text" id="cardisi">Benda cair adalah benda yang bentuknya tidak tetap,
+                                    akan tetapi volume tetap. Benda ini paling sering berupa air dan memiliki wadah
+                                    untuk menampungnya. Benda cair memiliki sifat sebagai berikut:</p>
+                                <div class="listboxmateri">
+                                    <ol>
+                                        <li>
+                                            Partikel Renggang
+                                        </li>
+                                        <div class="d-flex justify-content-center" id="imgmateri1">
+                                            <img src="/static/partikelcair.png" alt="Error! gambar tidak ditemukan!"
+                                                class="img-fluid">
+                                        </div>
+                                        <p class="sumbergambar">Sumber :
+                                            Google.com
+                                        </p>
+                                        <p class="teksdeskripsi">Pada benda cair, partikel tersusun renggang. Hal
+                                            ini
+                                            mengakibatkan benda akan mudah berubah bentuk sesuai wadahnya.
+                                        </p>
+                                        <li>
+                                            Bentuk tidak tetap mengikuti wadahnya, volume tetap
+                                        </li>
+                                        <li>
+                                            Mudah berubah wujud
+                                        </li>
+                                    </ol>
+                                    <p class="card-text" id="cardisi">Contoh benda cair:</p>
+                                    <div class="listboxmateri">
+                                        <ul>
+                                            <li>
+                                                Saus Tomat
+                                            </li>
+                                            <div class="d-flex justify-content-center" id="imgmateri1">
+                                                <img src="/static/saos.jpg" alt="Error! gambar tidak ditemukan!"
+                                                    class="img-fluid">
+                                            </div>
+                                            <p class="sumbergambar">Sumber :
+                                                Unsplash.com
+                                            </p>
+                                            <li>
+                                                Soda
+                                            </li>
+                                            <div class="d-flex justify-content-center" id="imgmateri1">
+                                                <img src="/static/soda.jpg" alt="Error! gambar tidak ditemukan!"
+                                                    class="img-fluid">
+                                            </div>
+                                            <p class="sumbergambar">Sumber :
+                                                Unsplash.com
+                                            </p>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 mt-5 mb-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="cardtitle">{{ subjudul4 }}</h5>
+                                    <p class="card-text" id="cardisi">Benda gas adalah benda yang bentuk dan volumenya
+                                        tidak tetap. Benda ini biasanya tidak mudah terlihat, tapi bisa dirasakan. Benda
+                                        gas memiliki sifat sebagai berikut:</p>
+                                    <div class="listboxmateri">
+                                        <ol>
+                                            <li>
+                                                Partikel Sangat Renggang
+                                            </li>
+                                            <div class="d-flex justify-content-center" id="imgmateri1">
+                                                <img src="/static/partikelgas.png" alt="Error! gambar tidak ditemukan!"
+                                                    class="img-fluid">
+                                            </div>
+                                            <p class="sumbergambar">Sumber :
+                                                Google.com
+                                            </p>
+                                            <p class="teksdeskripsi">Pada benda gas, partikel tersusun sangat renggang.
+                                                Hal
+                                                ini
+                                                mengakibatkan benda memiliki volume dan bentuk yang selalu
+                                                berubah-rubah.
+                                            </p>
+                                            <li>
+                                                Bentuk dan volume tidak tetap
+                                            </li>
+                                            <li>
+                                                Sangat mudah berubah wujud
+                                            </li>
+                                        </ol>
+                                        <p class="card-text" id="cardisi">Contoh benda gas:</p>
+                                        <div class="listboxmateri">
+                                            <ul>
+                                                <li>
+                                                    Asap
+                                                </li>
+                                                <div class="d-flex justify-content-center" id="imgmateri1">
+                                                    <img src="/static/asap.jpg" alt="Error! gambar tidak ditemukan!"
+                                                        class="img-fluid">
+                                                </div>
+                                                <p class="sumbergambar">Sumber :
+                                                    Unsplash.com
+                                                </p>
+                                                <li>
+                                                    Udara
+                                                </li>
+                                                <div class="d-flex justify-content-center" id="imgmateri1">
+                                                    <img src="/static/udara.jpg" alt="Error! gambar tidak ditemukan!"
+                                                        class="img-fluid">
+                                                </div>
+                                                <p class="sumbergambar">Sumber :
+                                                    Unsplash.com
+                                                </p>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 mt-5 mb-5">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title" id="cardtitle">{{ subjudul5 }}</h5>
+                                    <div class="dapus">
+                                        <ul>
+                                            <li>
+                                                Hani Ammariah. (2023). Penggolongan Materi Secara
+                                                Fisika: Padat, Cair, Gas | Fisika Kelas 7.
+                                                https://www.ruangguru.com/blog/penggolongan-materi-secara-fisika-padat-cair-dan-gas.
+                                                (diakses pada 29 Desember 2023)
+                                            </li>
+                                            <li>
+                                                Kamal.N. (2023). Perubahan Wujud Benda: Pengertian, Jenis, Dan
+                                                Contohnya.
+                                                https://www.gramedia.com/literasi/perubahan-wujud-benda/. (diakses pada
+                                                29
+                                                Desember 2023)
+                                            </li>
+                                        </ul>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Box -->
+
+
+
+
+    </main>
+
+    <!-- footer -->
+    <div class="mydivider"></div>
+    <footer class="py-4 my-0" id="myfooter">
+        <p class="text-center" id="footertext">Webipaku dibuat oleh Awan Wicaksono NPM 2114060226. </p>
+        <p class="text-center" id="footertext">Website ini dibuat untuk suplemen rekognisi mata
+            kuliah multimedia.
+            <a href="https://pgsd.unpkediri.ac.id/" target="_blank" class="menujupgsd">PGSD UNP Kediri</a>
+        </p>
+    </footer>
+    <div class="mydivider"></div>
+    <!-- /footer -->
+</body>
+
+</html>
